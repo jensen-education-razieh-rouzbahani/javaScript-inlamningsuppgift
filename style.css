@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+body,
+html {
+  background: #eee;
+  scroll-behavior: smooth;
+  font-family: "Open Sans", sans-serif;
+}
+
+.details-area input,
+.details-area button,
+label {
+  color: #fff;
+}
+  
+  .form-section {
+    width: 800px;
+    margin: 5% auto;
+  }
+  
+  .form-area {
+    display: flex;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 25px;
+    padding: 1.9em;
+  }
+  .msg-area {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+  }
+  
+  .msg-area > textarea {
+    flex: 1;
+    min-width: 18em;
+    background: transparent;
+    padding: 15px;
+  }
+  
+  .details-area {
+    flex: 1;
+    order: 1;
+    margin-right: 2em;
+  }
+  
+  .details-area input {
+    width: 100%;
+    background: transparent;
+    border-radius: 10px;
+  }
+  
+  .details-area input,
+  .details-area button {
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+  
+  .details-area button {
+    background: tomato;
+    border: 0;
+    padding: 15px 50px;
+    border-radius: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+  label {
+    text-transform: uppercase;
+    line-height: 40px;
+  }
+  .pictures {
+    width: 85vw;
+    /* margin: 4rem auto; */
+    /* max-width: 40rem; */
+    
+  }
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 2rem;
+    background: #fff;
+    margin: 0 0 6rem 10rem;
+    padding: 6rem;
+    box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s linear;
+    border-radius: 0.25rem;
+
+  }
+  main img {
+    width: 367px;
+    height: 267px;
+    border-top-left-radius:0.25rem;
+    border-top-right-radius: 0.25rem;
+
+  }
+  
